@@ -19,8 +19,7 @@ multiloader {
         addDependency(
             dependency = "com.terraformersmc:modmenu:${getDep("modmenu")}",
             repository = "maven.terraformersmc.com/releases",
-            configuration = "compileOnly",
-            isPublishDepEnabled = true
+            configuration = "compileOnly"
         )
     }
 }
