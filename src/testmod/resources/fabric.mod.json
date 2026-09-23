@@ -1,0 +1,7 @@
+{
+    "schemaVersion": 1,
+    "id": "testmod",
+    "name": "Test Lib",
+    "version": "1.0",
+    "mixins": ["testmod.mixins.json"]
+}

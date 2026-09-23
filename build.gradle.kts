@@ -3,6 +3,8 @@ plugins {
 }
 
 multiloader {
+    addSourceSet("testmod")
+
     setMREnvironment(mrEnvs.clientOnly)
     setCFEnvironment(cfEnvs.client)
 

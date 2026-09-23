@@ -24,10 +24,10 @@ public interface Config {
     }
 
     default Mode mode() {
-        return Mode.EMPTY;
+        return Mode.CUSTOM;
     }
 
     default List<String> customEntries() {
-        return List.of();
+        return List.of("incognito:incognito_mods");
     }
 }
