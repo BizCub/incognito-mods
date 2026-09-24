@@ -9,7 +9,7 @@ multiloader {
     setCFEnvironment(cfEnvs.client)
 
     addDependency(
-        dependency = getSimpleConfigLibDep("2.1"),
+        dependency = getSimpleConfigLibDep(),
         configuration = "compileOnly",
         isPublishDepEnabled = true
     )
