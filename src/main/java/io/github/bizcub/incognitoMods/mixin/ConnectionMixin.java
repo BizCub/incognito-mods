@@ -61,7 +61,7 @@ public abstract class ConnectionMixin {
         for (String entry : Config.get().customEntries()) {
             Identifier id = Identifier.tryParse(entry.trim());
             if (id != null) {
-                map.put(id, new PropertyMap(Map.of(id, "1.0")));
+                map.put(id, new PropertyMap(Map.of()));
             }
         }
         return map;
